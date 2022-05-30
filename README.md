@@ -1,7 +1,7 @@
 # MT_Russian-to-RSL
 MA Thesis by Anna Klezovich
 
-This project is devided in three parts:
+This project is divided in three parts:
 
 - In the first part I was building text-to-gloss machine translation baseline. It was a sequence-to-sequence textbook model with attention and "learning to sample" mechanism trained on the original data from scratch. Then there was an experiment with finetuning russian T5 model on the original, which showed better score and became a baseline.
 - In the second part of the experiment I conducted experiments with three data augmentation techniques and their mixtures in different proportions. Then I compared which augmentation technique was better.
